@@ -1,4 +1,4 @@
-html {
+body {
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
@@ -122,4 +122,14 @@ header ul {
 
 #contact {
 	text-align: center;
+	height: 200px;
+}
+
+/* Footer */
+footer {
+	text-align: left;
+}
+
+footer h5 {
+	margin: 30px 20px;
 }
