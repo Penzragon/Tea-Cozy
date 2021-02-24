@@ -6,6 +6,10 @@ html {
 	opacity: 0.9;
 }
 
+main {
+	background-color: black;
+}
+
 /* Header */
 header {
 	border-bottom: 1px solid seashell;
@@ -45,13 +49,8 @@ header ul {
 }
 
 /* Main */
-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.header {
-	margin-top: 69px;
+#header {
+	margin: 69px auto;
 	background-image: url("../images/img-mission-background.webp");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -66,4 +65,31 @@ main {
 	background-color: black;
 	width: 100%;
 	text-align: center;
+}
+
+#tea {
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.tea-list {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.tea-item {
+	width: 300px;
+	margin: 10px;
+}
+
+.tea-item img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.tea-item h4 {
+	margin: 0;
 }
