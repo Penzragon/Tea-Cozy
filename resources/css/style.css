@@ -15,6 +15,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
 }
 
 header img {
@@ -39,4 +42,28 @@ header nav {
 header ul {
 	display: flex;
 	justify-content: space-around;
+}
+
+/* Main */
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header {
+	margin-top: 69px;
+	background-image: url("../images/img-mission-background.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mission {
+	background-color: black;
+	width: 100%;
+	text-align: center;
 }
